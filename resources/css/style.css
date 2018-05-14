@@ -1,0 +1,37 @@
+/* Universal Styles */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  width: 100%;
+}
+
+/* Jumbotron Styles */
+
+.website-one {
+  background-image: url("../resources/images/john_mills_curtains.png");
+}
+
+.website-two {
+  background-image: url("../resources/images/callout_caravan_services.png");
+}
+
+.website-three {
+  background-image: url("../resources/images/alm-tamworth.png");
+}
+
+/* Images */
+.image-container img{
+
+}
