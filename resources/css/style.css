@@ -47,28 +47,40 @@ ul {
 
 /* Navigation Styles */
 nav {
-  /*font-family: "Open Sans";*/
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
 }
 
 /* Jumbotron Styles */
 .jumbotron {
-  height: 44rem;
+  height: 48rem;
   margin-top: 3.2rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.jumbotron h1 {
+  font-family: 'Bad Script', cursive;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 7.1rem;
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
 .website-one {
-  background-image: url("../images/john_mills_curtains.png");
+  background-image: url("../images/landtek_slider.png");
 }
 
 .website-two {
-  background-image: url("../images/callout_caravan_services.png");
+  background-image: url("../images/callout_caravan_services_slider.png");
 }
 
 .website-three {
-  background-image: url("../images/alm-tamworth.png");
+  background-image: url("../images/arc_fire_and_security_slider.png");
 }
 
 
@@ -99,6 +111,7 @@ nav {
 }
 
 .image-container img{
+  margin-top: 1rem;
   opacity: 0.7;
   transition: transform .5s, opacity .5s;
 }
