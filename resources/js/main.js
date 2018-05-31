@@ -37,6 +37,7 @@ function submitForm(){
         }
     });
 }
+
 function formSuccess(){
     $( "#msgSubmit" ).removeClass( "hidden" );
 }
