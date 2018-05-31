@@ -28,7 +28,7 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "resources/php/process.php",
+        url: "./resources/php/process.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
