@@ -32,6 +32,11 @@ ul {
   color: rgba(0, 0, 0, 0.7);
 }
 
+ul.circle {
+    list-style-type: circle;
+    margin-left: 1rem;
+}
+
 /* Bootstrap Overrides*/
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
   margin-left: 10px;
@@ -45,16 +50,28 @@ ul {
   padding-top: 5px;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
 /* Navigation Styles */
 nav {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
 }
 
+nav li:hover {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  background-color: #399bd1;
+}
+
+
 /* Jumbotron Styles */
 .jumbotron {
   height: 48rem;
   margin-top: 3.2rem;
+  margin-bottom: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -92,7 +109,7 @@ nav {
 
 /* About Me Styles */
 .about-me {
-  margin-bottom: 5.85rem;
+  margin-bottom: 3rem;
 }
 
 .about-me h2{
@@ -107,19 +124,26 @@ nav {
 }
 
 /* Portfolio Styles */
+.portfolio {
+  margin-bottom: 3rem;
+}
+
 .portfolio h2{
   margin-bottom: 1.4rem;
 }
 
 .portfolio h3 {
-  font-family: 'Anton', sans-serif;
-  
   text-align: center;
   font-size: 1.5rem;
 }
 
-.portfolio {
-  margin-bottom: 4rem;
+.title {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.intro {
+  margin-right: 1rem;
 }
 
 .image-container {
@@ -142,3 +166,16 @@ nav {
 }
 
 /* Contact */
+footer {
+  margin-bottom: 3rem;
+}
+
+footer h2{
+  margin-bottom: 1.4rem;
+}
+
+footer h3 {
+  text-align: center;
+  color: #000;
+  font-size: 3rem;
+}
