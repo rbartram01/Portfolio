@@ -10,10 +10,14 @@ $(document).ready(function(){
   });
 });
 
-$("#contactForm").submit(function(event){
-    // cancels the form submission
-    event.preventDefault();
-    submitForm();
+$("#contactForm").validator().on("submit", function (event) {
+    if (event.isDefaultPrevented()) {
+        // handle the invalid form...
+    } else {
+        // everything looks good!
+        event.preventDefault();
+        submitForm();
+    }
 });
 
 function submitForm(){
@@ -24,7 +28,7 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "./resources/php/process.php",
+        url: "./php/process.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
