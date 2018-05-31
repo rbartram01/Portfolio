@@ -60,18 +60,6 @@ nav {
   background-position: center;
 }
 
-.jumbotron h1 {
-  font-family: 'Bad Script', cursive;
-  color: #FFF;
-  font-weight: bold;
-  font-size: 7.1rem;
-  text-shadow:
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;
-}
-
 .website-one {
   background-image: url("../images/landtek_slider.png");
 }
@@ -121,6 +109,13 @@ nav {
 /* Portfolio Styles */
 .portfolio h2{
   margin-bottom: 1.4rem;
+}
+
+.portfolio h3 {
+  font-family: 'Anton', sans-serif;
+  
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .portfolio {
