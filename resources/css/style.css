@@ -199,7 +199,15 @@ footer p {
 }
 
 @media only screen and (max-width: 550px) {
+  footer p {
+    text-align: center;
+  }
+
   .icon_box {
     padding-left: 0rem;
+  }
+
+  .icons {
+    text-align: left;
   }
 }
