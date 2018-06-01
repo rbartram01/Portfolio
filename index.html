@@ -23,6 +23,7 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
         <script type="text/javascript" src="./resources/slick/slick.min.js"></script>
         <script type="text/javascript" src="./resources/js/main.js"></script>
+
     </head>
 
     <body>
@@ -38,7 +39,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#About">About</a></li>
+                      <li><a href="#Skills">My Skills</a></li>
                       <li><a href="#Portfolio">Portfolio</a></li>
                       <li><a href="#Contact">Contact</a></li>
                     </ul>
@@ -63,7 +64,7 @@
 
 
         <!-- About Section -->
-        <div class="container about-me" id="About">
+        <div class="container about-me" id="Skills">
             <div class="row">
                 <div class="col-xs-12 col-md-5">
                     <div class="image-container-me">
@@ -72,7 +73,101 @@
                 </div>
 
                 <div class="col-xs-12 col-md-7">
-                    <h2>About Me</h2>
+                    <h2>My Skills</h2>
+
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#html">HTML & CSS</a>
+                                </h4>
+                            </div>
+
+                            <div id="html" class="panel-collapse collapse in">
+                                <div class="panel-body">I learnt how to write HTML and CSS by purchasing website templates and re-writing the original HTML and CSS code to suite the client. This would sometimes include me removing unnecessary css files that were no longer needed.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#jquery">JQUERY</a>
+                                </h4>
+                            </div>
+                            <div id="jquery" class="panel-collapse collapse">
+                                <div class="panel-body">At the start of my career as a web developer we would purchase web templates and then rewrite areas of the code to suit the customer's requirements. There were a few occasions when I would remove the current slider that came with the template and replace it with a bootstrap jquery slider.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#javascript">JAVASCRIPT</a>
+                                </h4>
+                            </div>
+                            <div id="javascript" class="panel-collapse collapse">
+                                <div class="panel-body">Whilst completing my online course I learnt how to code javascript. In my last project I learnt how to manipulate images.This is a topic I didn't find as easy to get to grips with and therefore I have continued to learn javascript to expand my knowledge. </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#ajax">AJAX & PHP</a>
+                                </h4>
+                            </div>
+                            <div id="ajax" class="panel-collapse collapse">
+                                <div class="panel-body">With websites I created later on in my career, I would use ajax and php to help with submitting contact forms to update pages without bringing the user to a different page. I used php to validate contact forms when they were being sent.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#git">GIT</a>
+                                </h4>
+                            </div>
+                            <div id="git" class="panel-collapse collapse">
+                                <div class="panel-body">I recently completed an online course 'Build Websites from Scratch' where I learnt how to use Git. I found it quite interesting and easy to learn Git as I thought it was a great tool. I continued to use Git throughout the rest of my course.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#bootstrap">BOOTSTRAP</a>
+                                </h4>
+                            </div>
+                            <div id="bootstrap" class="panel-collapse collapse">
+                                <div class="panel-body">Throughout my career as a web developer I have always used bootstrap. Due to more and more end users visiting websites on mobile devices, I had to make sure that my websites worked well on mobile devices.</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#wordpress">WORDPRESS</a>
+                                </h4>
+                            </div>
+                            <div id="wordpress" class="panel-collapse collapse">
+                                <div class="panel-body">I have worked with wordpress as one of our clients requested we make changes to their website so that they were able to amend the content and upload any images or documentation when necessary.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#github">GITHUB</a>
+                                </h4>
+                            </div>
+                            <div id="github" class="panel-collapse collapse">
+                                <div class="panel-body">While completing my online course I had projects that I had to complete. I have uploaded some of my projects to my Github account, some of these can be seen <a href="https://github.com/rbartram01?tab=repositories" target="_blank">here</a>. 
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +215,7 @@
                                                 </div>
                                             </ul>
                                         </div>
-                                      </div>
+                                    </div>
                                 </div>
 
                                 <div class="modal-footer">
@@ -148,7 +243,29 @@
                                 </div>
 
                                 <div class="modal-body">
-                                    <p>Some text in the modal.</p>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                        <img src="resources\images\alm_tamworth.png" />
+                                      </div>
+                                      <div class="col-md-6">
+                                          <p class="intro">ALM Tamworth is an auto locksmiths that </p>
+                                          <p class="title">Skills Used<p>
+
+                                          <ul class="circle">
+                                              <div class="col-md-3">
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>PHP</li>
+                                              </div>
+
+                                              <div class="col-md-3">
+                                                <li>JQUERY</li>
+                                                <li>AJAX</li>
+                                                <li>BOOTSTRAP</li>
+                                              </div>
+                                          </ul>
+                                      </div>
+                                  </div>
                                 </div>
 
                                 <div class="modal-footer">
