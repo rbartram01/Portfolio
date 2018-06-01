@@ -122,10 +122,6 @@ nav li:hover {
     font-size: 1.5rem;
   }
 
-  .mobile {
-    font-size: 2rem;
-  }
-
 }
 
 /* Portfolio Styles */
@@ -200,4 +196,10 @@ footer p {
 
 .icons {
   text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+  .icon_box {
+    padding-left: 0rem;
+  }
 }
