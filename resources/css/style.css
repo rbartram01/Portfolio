@@ -108,18 +108,22 @@ nav li:hover {
   }
 }
 
-/* About Me Styles */
-.about-me {
+/* Skills Styles */
+.skills-section {
   margin-bottom: 3rem;
 }
 
-.about-me h2{
+.skills-section h2{
   margin-bottom: 1.4rem;
 }
 
 @media only screen and (max-width: 550px) {
   p {
     font-size: 1.5rem;
+  }
+
+  .mobile {
+    font-size: 2rem;
   }
 
 }
