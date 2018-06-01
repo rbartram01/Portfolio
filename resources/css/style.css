@@ -30,6 +30,8 @@ img {
 ul {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
+  font-family: "Open Sans", sans-serif;
+  color: #000;
 }
 
 ul.circle {
@@ -138,7 +140,7 @@ nav li:hover {
 
 .title {
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .intro {
@@ -177,4 +179,21 @@ footer h3 {
   text-align: center;
   color: #000;
   font-size: 3rem;
+}
+
+footer h4 {
+  text-align: center;
+  color: #000;
+}
+
+footer p {
+  text-align: center;
+}
+
+.icon_box {
+  padding-left: 12rem;
+}
+
+.icons {
+  text-align: center;
 }
